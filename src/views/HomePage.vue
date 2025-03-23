@@ -4,16 +4,15 @@
     <BaseLayout>
         <section
             class="relative min-h-[40vh] flex items-center justify-center text-center px-6 bg-gradient-to-br from-white via-blue-50 to-white overflow-hidden">
-            <img src="/your-background-image.jpg" alt="Sauna on water"
-                class="absolute inset-0 w-full h-full object-cover opacity-20" />
+            <img src="/sauna.jpg" alt="Sauna on water" class="absolute inset-0 w-full h-full object-cover opacity-90" />
             <div class="relative z-10 max-w-2xl">
-                <h1 class="text-5xl sm:text-6xl font-extrabold leading-tight text-gray-900 mb-6 drop-shadow">
+                <h1 class="text-5xl sm:text-6xl font-extrabold leading-tight text-white mb-6 drop-shadow">
                     Experience the Floating Sauna
                 </h1>
-                <p class="text-lg sm:text-xl text-gray-800 mb-8 drop-shadow-sm">
+                <p class="text-lg sm:text-xl text-white mb-8 drop-shadow-sm">
                     A premium Swedish-style sauna experience, floating on the calm waters of Perth.
                 </p>
-                <router-link to="/booking" class="inline-block bg-swedishYellow text-black font-medium py-3 px-6 rounded-full shadow-md transition-all duration-300 ease-out
+                <router-link to="/booking" class="inline-block bg-swedishYellow text-hite font-medium py-3 px-6 rounded-full shadow-md transition-all duration-300 ease-out
 hover:scale-[1.02] hover:brightness-110">
                     Book Your Session
                 </router-link>
